@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif ;
-    background-color: #FFFFFF;
 }
 
 img{
@@ -41,6 +40,7 @@ img{
 
 .navbar-container{
     padding: 20px 0px;
+    background-color: #FFFFFF;
 }
 .dev-logo img{
     width: 134px;
@@ -62,3 +62,42 @@ img{
 
     color: #0e0d0d;
 }
+
+
+.hero-container{
+    width: full;
+    min-height: 610px;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,1)),url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-text{
+    width: 80%;
+    margin: 0 auto;
+    background-color: none;
+    
+}
+
+.hero-text h1{
+    text-align: center;
+    font-size: 80px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.hero-text p{
+    text-align: center;
+    font-size: 22px;
+    color: #FFFFFF; 
+    margin-bottom: 220px;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+}
+.hero-btn-outline{
+    background-color: #1D4ED8;
+}
+ 

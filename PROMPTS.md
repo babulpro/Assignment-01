@@ -7,3 +7,10 @@
 
 
 3.i want to show date on button:-its three day schedule . Day 1 - Oct 15,and want to show the day one timestamps on a table.tell me the basic structure of the table.
+
+
+
+
+
+
+<!-- i have an issue on github, i have two git account with two email(pc,mobile),when i git config global i have to use another email thats why the name of the code on github comes from separate account ,its ok now. thank you -->

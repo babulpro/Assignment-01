@@ -30,6 +30,7 @@ img{
 }
 .basic-btn:hover{
     background-color: #183891;
+    color: #FFFFFF;
 }
 
 
@@ -105,6 +106,7 @@ img{
 
 
 /* header end */
+
 
 /* main start */
 main{
@@ -206,14 +208,12 @@ main{
     background-color: #0D1B2A;
 }
 
-.plan-card-top p{
-
+.plan-card-top p ,.schedule-top p{
     color:#888888;
     padding: 10px 0px;
     font-size: 13px;
 }
-.plan-card-top h1{
-
+.plan-card-top h1 ,.schedule-top h1{
     color:#0D1B2A;
     font-size: 44px;
 }
@@ -290,4 +290,82 @@ main{
     cursor: pointer;
 
 }
+
+
+
+
+/* schedule start */
+.schedule-top{
+    margin-top: 150px;
+    text-align: center;
+}
+.schedule-top h1{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.schedule-date{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.btn-outline{
+    border:1.5px solid #2563EB;    
+    color: #2563EB; 
+    background-color: #FFFFFF;
+}
+.schedule-time{
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    
+}
+
+table{
+    width: 100%; 
+    border-collapse: collapse;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.30); 
+
+}
+
+th,td{
+    border:1px solid #575757;
+    text-align: left;
+    padding: 5px;
+}
+
+th{
+    background-color: #575757;
+    color: #FFFFFF;
+}
+
+
+/* main end */
+
+/* footer start */
+.footer-main{
+    width: 100%;
+    background-color: #0D1B2A;
+    margin-top: 120px;
+}
+.footer-container{
+    width: 80%;
+    padding: 30px 0px;
+    margin: 0 auto;
+}
+
+.footer-left p ,.footer-right a{
+    color:#FFFFFF;
+    font-size: 13px;
+    opacity: 40%;
+    
+}
+
+.footer-right a{
+    text-decoration: none;
+    margin-right:30px;
+   
+    
+}
+
 
